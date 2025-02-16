@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-container {
+    flex: 1;
+    height: 45vh;
+}
+
+.fixed-container {
+    position: fixed;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+/* Additional styling for the button */
+.fixed-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fixed-container button:hover {
+    background-color: #0056b3;
+}
